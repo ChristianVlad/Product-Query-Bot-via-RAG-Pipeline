@@ -131,20 +131,21 @@ pytest --html=report.html --self-contained-html
 📬 Contact
 For inquiries or collaboration:
 
-Email: [christian.valladaresp@gmail.com.com]
+Email: christian.valladaresp@gmail.com.com
 
-GitHub: [github.com/ChristianVlad]
+GitHub: github.com/ChristianVlad
 
+### TEST CASES
+
+```bash
 {
   "user_id": "user001",
   "answer": "The Zubale PowerBank 2 falls under the Accessories category and is priced at $49."
 },
-
 {
 "user_id": "u001", 
 "query": "What is the price of Zubale Mouse Inalámbrico?"
-}
-,
+},
 {
 "user_id": "u002", 
 "query": "What category does the Zubale Keyboard MX belong to?"
@@ -156,8 +157,8 @@ GitHub: [github.com/ChristianVlad]
 "user_id": 
 "u004", "query": "What is the square root of 144?"
 },
-
 {
 "user_id": 
 "u005", "query": "What is the price of Samsung Galaxy S20?"
 }
+```bash
