@@ -1,0 +1,19 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+env/
+venv/
+.venv/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Files to ignore
+*.log
+.env
+*.html

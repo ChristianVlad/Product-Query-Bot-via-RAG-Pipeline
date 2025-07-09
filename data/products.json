@@ -1,0 +1,72 @@
+[
+  {
+    "id": "p001",
+    "name": "Zubale Smartwatch Pro",
+    "description": "Smartwatch con pantalla AMOLED, 7 días de batería, seguimiento de salud, compatible con Android y iOS.",
+    "category": "Tecnología",
+    "price": "$99"
+  },
+  {
+    "id": "p002",
+    "name": "Zubale Fit Band 2",
+    "description": "Banda deportiva con monitor de frecuencia cardíaca, contador de pasos y resistencia al agua IP68.",
+    "category": "Tecnología",
+    "price": "$94"
+  },
+  {
+    "id": "p003",
+    "name": "Audífonos Zubale AirSound",
+    "description": "Audífonos inalámbricos con cancelación activa de ruido, estuche de carga rápida y control táctil.",
+    "category": "Audio",
+    "price": "$25"
+  },
+  {
+    "id": "p004",
+    "name": "Zubale PowerBank 20K",
+    "description": "Batería externa de 20,000 mAh con carga rápida QC 3.0 y doble puerto USB-C.",
+    "category": "Accesorios",
+    "price": "$49"
+  },
+  {
+    "id": "p005",
+    "name": "Zubale Laptop Slim 13”",
+    "description": "Laptop ultraligera con procesador Intel i5, SSD 512 GB, 8GB RAM y pantalla FHD.",
+    "category": "Computadoras",
+    "price": "$699"
+  },
+  {
+    "id": "p006",
+    "name": "Zubale Backpack Pro",
+    "description": "Mochila resistente al agua con puerto USB, compartimento para laptop de hasta 15.6”, y múltiples bolsillos.",
+    "category": "Accesorios",
+    "price": "$49"
+  },
+  {
+    "id": "p007",
+    "name": "Zubale Mouse Inalámbrico",
+    "description": "Mouse ergonómico con 3 niveles de DPI, conexión dual (Bluetooth + 2.4GHz), batería recargable.",
+    "category": "Accesorios",
+    "price": "$10"
+  },
+  {
+    "id": "p008",
+    "name": "Zubale Cam HD",
+    "description": "Cámara web HD 1080p con micrófono integrado, ideal para videollamadas, incluye clip ajustable.",
+    "category": "Cámaras",
+    "price": "$42"
+  },
+  {
+    "id": "p009",
+    "name": "Zubale Keyboard MX",
+    "description": "Teclado mecánico con retroiluminación RGB, switches silenciosos y diseño compacto 75%.",
+    "category": "Periféricos",
+    "price": "$24"
+  },
+  {
+    "id": "p010",
+    "name": "Zubale Tablet Go",
+    "description": "Tablet de 10 pulgadas con Android 13, 64 GB de almacenamiento, ideal para entretenimiento y lectura.",
+    "category": "Tablets",
+    "price": "$29"
+  }
+]
