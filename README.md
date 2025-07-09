@@ -29,6 +29,7 @@ This project was developed as a technical assessment to demonstrate proficiency 
 
 ## 🧱 Architecture
 
+```plaintext
 /product-query-bot/
 ├── app/
 │ ├── main.py # FastAPI application
@@ -43,6 +44,7 @@ This project was developed as a technical assessment to demonstrate proficiency 
 │ └── config.py # Environment and runtime configuration
 ├── tests/
 │ ├── test_retrieval.py # Unit tests for vector store
+│ ├── test_clasifier.py
 │ └── test_api.py # API integration tests
 ├── data/ # Product documents (e.g., products.json)
 ├── Dockerfile # Docker image specification
@@ -50,7 +52,7 @@ This project was developed as a technical assessment to demonstrate proficiency 
 ├── requirements.txt # Python dependencies
 ├── .env.example # Environment variable template
 └── README.md
-
+```
 
 ---
 
@@ -121,7 +123,7 @@ OPENAI_API_KEY=your-api-key
 TOP_K=3
 ```
 
-# GET HTML Generate
+### GET HTML Generate
 ```bash
 pytest --html=report.html --self-contained-html
 ```
