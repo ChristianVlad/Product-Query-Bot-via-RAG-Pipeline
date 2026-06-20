@@ -16,15 +16,15 @@ This project splits the pipeline into a **Retriever Agent** and a **Responder Ag
 
 ```
 ┌─────────────┐     ┌──────────────────┐     ┌──────────────────┐
-│   FastAPI    │────▶│  Retriever Agent  │────▶│  Responder Agent │
-│   /query     │     │  (FAISS semantic  │     │  (LLM + context  │
-│   endpoint   │     │   search, top-k)  │     │   construction)  │
+│   FastAPI   │────▶│ Retriever Agent │────▶│  Responder Agent │
+│   /query    │     │  (FAISS semantic │     │  (LLM + context  │
+│   endpoint  │     │   search, top-k) │     │   construction)  │
 └─────────────┘     └──────────────────┘     └──────────────────┘
                               │                         │
                               ▼                         ▼
                      ┌─────────────────┐      ┌──────────────────┐
-                     │  Vector Store    │      │   OpenAI API     │
-                     │  (product corpus)│      │  (response gen)  │
+                     │ Vector Store    │      │   OpenAI API     │
+                     │ (product corpus)│      │  (response gen)  │
                      └─────────────────┘      └──────────────────┘
 ```
 
